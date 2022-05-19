@@ -20,7 +20,7 @@
 		setTimeout(function(){
 			var display = document.getElementById('display');
 			textos = texts; 
-			display.innerText = texts + `<button onclick='speak(textos)'> Speak</button>`;
+			display.innerHTML = texts + `<button onclick='speak(textos)'> Speak</button>`;
 		},100);
 	}
 	function speak(textos){
